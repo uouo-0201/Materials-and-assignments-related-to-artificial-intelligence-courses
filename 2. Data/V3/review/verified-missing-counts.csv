@@ -1,0 +1,5 @@
+﻿site,age,sex,cp,trestbps,chol,fbs,restecg,thalach,exang,oldpeak,slope,ca,thal
+Cleveland,0,0,0,0,0,0,0,0,0,0,0,4,2
+Hungary,0,0,0,1,23,8,1,1,1,0,190,291,266
+Switzerland,0,0,0,2,0,75,1,1,1,6,17,118,52
+VA Long Beach,0,0,0,56,7,7,0,53,53,56,102,198,166

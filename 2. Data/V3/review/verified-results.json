@@ -1,0 +1,177 @@
+{
+  "shape": [
+    920,
+    16
+  ],
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "age_mean": 53.51086956521739,
+  "cp_mean": 3.25,
+  "recoded_cp_mean": 56.28260869565217,
+  "cp_counts": {
+    "1": 46,
+    "2": 174,
+    "3": 204,
+    "4": 496
+  },
+  "positive_n": 509,
+  "positive_proportion": 0.5532608695652174,
+  "contingency": [
+    [
+      26,
+      20
+    ],
+    [
+      150,
+      24
+    ],
+    [
+      131,
+      73
+    ],
+    [
+      104,
+      392
+    ]
+  ],
+  "quality": [
+    {
+      "site": "Cleveland",
+      "n": 303,
+      "chol_missing": 0,
+      "ca_missing": 4,
+      "chol_zero": 0,
+      "positive": 139,
+      "positive_pct": 45.87458745874587,
+      "chol_n_with_zero": 303,
+      "chol_mean_with_zero": 246.69306930693068,
+      "chol_n_without_zero": 303,
+      "chol_mean_without_zero": 246.69306930693068
+    },
+    {
+      "site": "Hungary",
+      "n": 294,
+      "chol_missing": 23,
+      "ca_missing": 291,
+      "chol_zero": 0,
+      "positive": 106,
+      "positive_pct": 36.054421768707485,
+      "chol_n_with_zero": 271,
+      "chol_mean_with_zero": 250.84870848708488,
+      "chol_n_without_zero": 271,
+      "chol_mean_without_zero": 250.84870848708488
+    },
+    {
+      "site": "Switzerland",
+      "n": 123,
+      "chol_missing": 0,
+      "ca_missing": 118,
+      "chol_zero": 123,
+      "positive": 115,
+      "positive_pct": 93.4959349593496,
+      "chol_n_with_zero": 123,
+      "chol_mean_with_zero": 0.0,
+      "chol_n_without_zero": 0,
+      "chol_mean_without_zero": null
+    },
+    {
+      "site": "VA Long Beach",
+      "n": 200,
+      "chol_missing": 7,
+      "ca_missing": 198,
+      "chol_zero": 49,
+      "positive": 149,
+      "positive_pct": 74.5,
+      "chol_n_with_zero": 193,
+      "chol_mean_with_zero": 178.7461139896373,
+      "chol_n_without_zero": 144,
+      "chol_mean_without_zero": 239.56944444444446
+    }
+  ],
+  "retention": [
+    {
+      "site": "Cleveland",
+      "original_n": 303,
+      "complete_n": 297,
+      "original_mix_pct": 32.93478260869565,
+      "complete_mix_pct": 99.33110367892976
+    },
+    {
+      "site": "Hungary",
+      "original_n": 294,
+      "complete_n": 1,
+      "original_mix_pct": 31.956521739130434,
+      "complete_mix_pct": 0.33444816053511706
+    },
+    {
+      "site": "Switzerland",
+      "original_n": 123,
+      "complete_n": 0,
+      "original_mix_pct": 13.369565217391305,
+      "complete_mix_pct": 0.0
+    },
+    {
+      "site": "VA Long Beach",
+      "original_n": 200,
+      "complete_n": 1,
+      "original_mix_pct": 21.73913043478261,
+      "complete_mix_pct": 0.33444816053511706
+    }
+  ],
+  "complete_total": 299,
+  "standardization": [
+    {
+      "variable": "age",
+      "n": 303,
+      "mean": 54.43894389438944,
+      "sd_ddof0": 9.02373483119838,
+      "z_mean": -1.4656409566008667e-18,
+      "z_sd_ddof0": 0.9999999999999999,
+      "first_raw": 63.0,
+      "first_z": 0.9487264714397227
+    },
+    {
+      "variable": "trestbps",
+      "n": 303,
+      "mean": 131.68976897689768,
+      "sd_ddof0": 17.570681239512478,
+      "z_mean": 4.4262356889346173e-16,
+      "z_sd_ddof0": 1.0,
+      "first_raw": 145.0,
+      "first_z": 0.7575250408146171
+    },
+    {
+      "variable": "chol",
+      "n": 303,
+      "mean": 246.69306930693068,
+      "sd_ddof0": 51.6914064726489,
+      "z_mean": 2.3450255305613865e-16,
+      "z_sd_ddof0": 1.0,
+      "first_raw": 233.0,
+      "first_z": -0.2649003043508982
+    }
+  ],
+  "instrument_mean_difference": 20,
+  "cell_matrix": [
+    300,
+    20000
+  ],
+  "image_matrix": [
+    40,
+    4096
+  ],
+  "data_sha256": "1bdd814c922b6fa186c4de8dee8a42b7f63d287c40942644454844318d988c3c"
+}

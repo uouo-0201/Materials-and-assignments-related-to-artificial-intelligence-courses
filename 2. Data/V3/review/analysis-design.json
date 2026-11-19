@@ -1,0 +1,451 @@
+{
+  "study_goal": "用实验回答课程计划第2讲的三个核心问题",
+  "source_priority": "plan.docx Lesson 2; approved V3 plan overrides broader data.md and packet workflow",
+  "learning_objectives": [
+    {
+      "id": "LO1",
+      "source_excerpt": "什么是变量？",
+      "observable_outcome": "解释观察单位、变量、值、角色与记录/患者的差别"
+    },
+    {
+      "id": "LO2",
+      "source_excerpt": "连续变量；离散变量；二分类变量；多分类变量；有序变量；时间变量；高维变量",
+      "observable_outcome": "分类全体字段并在迁移中判断有序、时间、高维结构"
+    },
+    {
+      "id": "LO3",
+      "source_excerpt": "样本 × 特征；患者 × 临床指标；细胞 × 基因；图像 × 像素/特征",
+      "observable_outcome": "写出矩阵维度、独立对象数及链接需求"
+    },
+    {
+      "id": "LO4",
+      "source_excerpt": "哪些变量可以求均值？哪些变量适合做卡方检验？哪些变量适合进入 logistic regression？哪些变量需要标准化？",
+      "observable_outcome": "解释均值含义、构造列联表、定义输入输出与说明尺度用途"
+    },
+    {
+      "id": "LO5",
+      "source_excerpt": "缺失值；异常值；批次效应；类别不平衡；测量误差",
+      "observable_outcome": "量化质量现象与筛选影响，区分成因推测和证据"
+    },
+    {
+      "id": "LO6",
+      "source_excerpt": "作业选择一个公开生物医学数据集，写出：数据来源；样本数；特征数；主要变量类型；可能的数据质量问题",
+      "observable_outcome": "提交能复核的五项数据审查内容"
+    }
+  ],
+  "problem_architecture": {
+    "overarching_problem": "怎样描述四中心记录中的患者并为疾病状态研究准备数据？",
+    "downstream_use": "研究团队描述患者特征并为后续二分类研究准备数据",
+    "decision_options": [
+      "A 保留四中心及全部候选字段，说明处理条件",
+      "B 限定有依据的中心或字段",
+      "C 证据不足，暂缓拟议分析"
+    ],
+    "inquiry_questions": [
+      {
+        "id": "Q1",
+        "question": "实验1：数字一定代表数量吗",
+        "objective_ids": [
+          "LO1",
+          "LO2",
+          "LO6"
+        ],
+        "concept_ids": [
+          "LO1",
+          "LO2",
+          "LO6"
+        ],
+        "required_learning": [
+          "解释观察单位、变量、值、角色与记录/患者的差别",
+          "分类全体字段并在迁移中判断有序、时间、高维结构",
+          "提交能复核的五项数据审查内容"
+        ],
+        "student_action": "表 B1及改名实验",
+        "evidence_ids": [
+          "数据表",
+          "字典",
+          "表 A1"
+        ],
+        "release_after": "S1",
+        "minutes": 25,
+        "student_output": "表 B1及改名实验",
+        "contribution_to_synthesis": "汇报三个课程问题；最终建议引用该项结果",
+        "tracker_row": "Not applicable: user approved direct response areas; 表 B1及改名实验"
+      },
+      {
+        "id": "Q2",
+        "question": "实验2：哪些分析有意义",
+        "objective_ids": [
+          "LO4"
+        ],
+        "concept_ids": [
+          "LO4"
+        ],
+        "required_learning": [
+          "解释均值含义、构造列联表、定义输入输出与说明尺度用途"
+        ],
+        "student_action": "表 B2、B3和方法解释",
+        "evidence_ids": [
+          "数据表",
+          "字典"
+        ],
+        "release_after": "B",
+        "minutes": 25,
+        "student_output": "表 B2、B3和方法解释",
+        "contribution_to_synthesis": "汇报三个课程问题；最终建议引用该项结果",
+        "tracker_row": "Not applicable: user approved direct response areas; 表 B2、B3和方法解释"
+      },
+      {
+        "id": "Q3",
+        "question": "实验3：处理数据会改变结论吗",
+        "objective_ids": [
+          "LO5",
+          "LO6"
+        ],
+        "concept_ids": [
+          "LO5",
+          "LO6"
+        ],
+        "required_learning": [
+          "量化质量现象与筛选影响，区分成因推测和证据",
+          "提交能复核的五项数据审查内容"
+        ],
+        "student_action": "表 C1–C3和后果解释",
+        "evidence_ids": [
+          "数据表",
+          "字典"
+        ],
+        "release_after": "C",
+        "minutes": 30,
+        "student_output": "表 C1–C3和后果解释",
+        "contribution_to_synthesis": "汇报三个课程问题；最终建议引用该项结果",
+        "tracker_row": "Not applicable: user approved direct response areas; 表 C1–C3和后果解释"
+      },
+      {
+        "id": "Q4",
+        "question": "迁移：同一思路能用到新数据吗",
+        "objective_ids": [
+          "LO2",
+          "LO3",
+          "LO5"
+        ],
+        "concept_ids": [
+          "LO2",
+          "LO3",
+          "LO5"
+        ],
+        "required_learning": [
+          "分类全体字段并在迁移中判断有序、时间、高维结构",
+          "写出矩阵维度、独立对象数及链接需求",
+          "量化质量现象与筛选影响，区分成因推测和证据"
+        ],
+        "student_action": "表 D1和使用边界",
+        "evidence_ids": [
+          "表 D1"
+        ],
+        "release_after": "D",
+        "minutes": 10,
+        "student_output": "表 D1和使用边界",
+        "contribution_to_synthesis": "汇报三个课程问题；最终建议引用该项结果",
+        "tracker_row": "Not applicable: user approved direct response areas; 表 D1和使用边界"
+      }
+    ]
+  },
+  "evidence_items": [
+    {
+      "id": "数据表",
+      "packet": "S1",
+      "artifacts": [
+        "data/heart-disease-four-site.csv"
+      ],
+      "context": "920 records; 16 columns; four-source historical clinical data"
+    },
+    {
+      "id": "字典",
+      "packet": "S1",
+      "artifacts": [
+        "pbl-data-types-reference.docx"
+      ],
+      "context": "R2; each row is a field, with definition and units"
+    },
+    {
+      "id": "表 A1",
+      "packet": "S1",
+      "artifacts": [
+        "pbl-data-types-student-worksheet.docx"
+      ],
+      "context": "Four source counts, each row of input is a record, not verified unique patients"
+    },
+    {
+      "id": "表 D1",
+      "packet": "S1",
+      "artifacts": [
+        "data/teaching-followup.csv",
+        "data/teaching-stage-count.csv",
+        "data/teaching-instruments.csv",
+        "data/teaching-matrix-scenarios.json"
+      ],
+      "context": "Five fully specified synthetic examples; never merged into real data"
+    }
+  ],
+  "course_coverage": [
+    {
+      "objective_id": "LO1",
+      "concept_cluster_ids": [
+        "LO1"
+      ],
+      "inquiry_question_ids": [
+        "Q1"
+      ],
+      "analysis_ids": [
+        "A1"
+      ],
+      "required_learning": [
+        "解释观察单位、变量、值、角色与记录/患者的差别"
+      ],
+      "student_output": "表 B1与数据身份",
+      "worksheet_location": "实验1",
+      "synthesis_use": "汇报对应课程问题，综合进入最终数据使用建议",
+      "assessment_evidence": "解释观察单位、变量、值、角色与记录/患者的差别"
+    },
+    {
+      "objective_id": "LO2",
+      "concept_cluster_ids": [
+        "LO2"
+      ],
+      "inquiry_question_ids": [
+        "Q1",
+        "Q4"
+      ],
+      "analysis_ids": [
+        "A1",
+        "A4"
+      ],
+      "required_learning": [
+        "分类全体字段并在迁移中判断有序、时间、高维结构"
+      ],
+      "student_output": "表 B1、表 D1",
+      "worksheet_location": "实验1、迁移",
+      "synthesis_use": "汇报对应课程问题，综合进入最终数据使用建议",
+      "assessment_evidence": "分类全体字段并在迁移中判断有序、时间、高维结构"
+    },
+    {
+      "objective_id": "LO3",
+      "concept_cluster_ids": [
+        "LO3"
+      ],
+      "inquiry_question_ids": [
+        "Q4"
+      ],
+      "analysis_ids": [
+        "A4"
+      ],
+      "required_learning": [
+        "写出矩阵维度、独立对象数及链接需求"
+      ],
+      "student_output": "数据身份、表 D1",
+      "worksheet_location": "迁移",
+      "synthesis_use": "汇报对应课程问题，综合进入最终数据使用建议",
+      "assessment_evidence": "写出矩阵维度、独立对象数及链接需求"
+    },
+    {
+      "objective_id": "LO4",
+      "concept_cluster_ids": [
+        "LO4"
+      ],
+      "inquiry_question_ids": [
+        "Q2"
+      ],
+      "analysis_ids": [
+        "A2"
+      ],
+      "required_learning": [
+        "解释均值含义、构造列联表、定义输入输出与说明尺度用途"
+      ],
+      "student_output": "表 B1、B2、B3与解释",
+      "worksheet_location": "实验2",
+      "synthesis_use": "汇报对应课程问题，综合进入最终数据使用建议",
+      "assessment_evidence": "解释均值含义、构造列联表、定义输入输出与说明尺度用途"
+    },
+    {
+      "objective_id": "LO5",
+      "concept_cluster_ids": [
+        "LO5"
+      ],
+      "inquiry_question_ids": [
+        "Q3",
+        "Q4"
+      ],
+      "analysis_ids": [
+        "A3",
+        "A4"
+      ],
+      "required_learning": [
+        "量化质量现象与筛选影响，区分成因推测和证据"
+      ],
+      "student_output": "表 C1–C3、表 D1与建议",
+      "worksheet_location": "实验3、迁移",
+      "synthesis_use": "汇报对应课程问题，综合进入最终数据使用建议",
+      "assessment_evidence": "量化质量现象与筛选影响，区分成因推测和证据"
+    },
+    {
+      "objective_id": "LO6",
+      "concept_cluster_ids": [
+        "LO6"
+      ],
+      "inquiry_question_ids": [
+        "Q1",
+        "Q3"
+      ],
+      "analysis_ids": [
+        "A1",
+        "A3"
+      ],
+      "required_learning": [
+        "提交能复核的五项数据审查内容"
+      ],
+      "student_output": "数据身份、表 B1、实验3及最终建议",
+      "worksheet_location": "数据身份、实验1、实验3",
+      "synthesis_use": "汇报对应课程问题，综合进入最终数据使用建议",
+      "assessment_evidence": "提交能复核的五项数据审查内容"
+    }
+  ],
+  "split_plan": {
+    "required": false,
+    "rationale": "只做描述和尺度实验，不估计泛化性能"
+  },
+  "workflow_override": {
+    "approved": true,
+    "reason": "User explicitly replaces extensive tracking/packet management",
+    "student_packets": false,
+    "student_tracker": false,
+    "release_codes": "QA stage mapping only; all inputs provided from launch; B=experiment2, C=experiment3, D=transfer"
+  },
+  "time_budget": {
+    "launch": 45,
+    "self_study": 90,
+    "report_class": 45,
+    "self_study_breakdown": {
+      "reading": 15,
+      "experiment2": 25,
+      "experiment3": 30,
+      "transfer": 10,
+      "report_prep": 10
+    }
+  },
+  "analyses": [
+    {
+      "id": "A1",
+      "method": "逐列语义、角色判断与类别重编码对照",
+      "domain": "variable_semantics",
+      "artifacts": [
+        "data/heart-disease-four-site.csv",
+        "review/verified-results.json"
+      ],
+      "objective_ids": [
+        "LO1",
+        "LO2",
+        "LO6"
+      ],
+      "inquiry_question_ids": [
+        "Q1"
+      ],
+      "packet": "S1",
+      "interpretation_boundary": "教学审查；不能得出因果或临床有效性结论"
+    },
+    {
+      "id": "A2",
+      "method": "均值、列联频数、输入输出表示、ddof=0标准化",
+      "domain": "transformation_preprocessing",
+      "artifacts": [
+        "review/verified-results.json"
+      ],
+      "objective_ids": [
+        "LO4"
+      ],
+      "inquiry_question_ids": [
+        "Q2"
+      ],
+      "packet": "B",
+      "interpretation_boundary": "教学审查；不能得出因果或临床有效性结论"
+    },
+    {
+      "id": "A3",
+      "method": "分中心缺失、比例、零值敏感性与完整记录构成",
+      "domain": "data_quality",
+      "artifacts": [
+        "review/verified-results.json",
+        "review/verified-missing-counts.csv"
+      ],
+      "objective_ids": [
+        "LO5",
+        "LO6"
+      ],
+      "inquiry_question_ids": [
+        "Q3"
+      ],
+      "packet": "C",
+      "interpretation_boundary": "教学审查；不能得出因果或临床有效性结论"
+    },
+    {
+      "id": "A4",
+      "method": "明确输入的时间、矩阵与仪器教学对照",
+      "domain": "data_structure",
+      "artifacts": [
+        "data/teaching-followup.csv",
+        "data/teaching-stage-count.csv",
+        "data/teaching-instruments.csv",
+        "data/teaching-matrix-scenarios.json"
+      ],
+      "objective_ids": [
+        "LO2",
+        "LO3",
+        "LO5"
+      ],
+      "inquiry_question_ids": [
+        "Q4"
+      ],
+      "packet": "D",
+      "interpretation_boundary": "教学审查；不能得出因果或临床有效性结论"
+    }
+  ],
+  "syllabus_tasks": [
+    {
+      "source_excerpt": "判断每一列的变量类型",
+      "worksheet_location": "表 B1"
+    },
+    {
+      "source_excerpt": "哪些变量可以求均值？",
+      "worksheet_location": "表 B1与实验2"
+    },
+    {
+      "source_excerpt": "哪些变量适合做卡方检验？",
+      "worksheet_location": "表 B1、B2"
+    },
+    {
+      "source_excerpt": "哪些变量适合进入 logistic regression？",
+      "worksheet_location": "表 B1及输入输出判断"
+    },
+    {
+      "source_excerpt": "哪些变量需要标准化？",
+      "worksheet_location": "表 B1、B3及尺度解释"
+    },
+    {
+      "source_excerpt": "数据来源、样本数、特征数",
+      "worksheet_location": "数据身份"
+    },
+    {
+      "source_excerpt": "主要变量类型",
+      "worksheet_location": "表 B1"
+    },
+    {
+      "source_excerpt": "可能的数据质量问题",
+      "worksheet_location": "实验3及最终建议"
+    }
+  ],
+  "boundaries": [
+    "No clinical or causal claims",
+    "No cross-source identity verification",
+    "Zero exclusions are sensitivity analysis, not established correction"
+  ]
+}

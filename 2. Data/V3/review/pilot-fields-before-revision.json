@@ -1,0 +1,3836 @@
+{
+  "worksheet": "class2026/materials/2. Data/V3/pbl-data-types-student-worksheet.docx",
+  "pitfall_codes": {
+    "P01": "title-only / underspecified prompt",
+    "P02": "generic prompt repeated across modules",
+    "P03": "ambiguous referent (two plausible readings)",
+    "P04": "undefined term, code or abbreviation",
+    "P05": "no decision or downstream use to anchor the answer",
+    "P06": "sequencing conflict (evidence not yet released; schedule vs release notes)",
+    "P07": "evidence not locatable (filename, missing label, absent evidence)",
+    "P08": "evidence lacks interpretive context (records, variables, n, units, inputs)",
+    "P09": "evidence gives away the judgment the student should make",
+    "P10": "task needs data, tool or skill that is not provided",
+    "P11": "no place to record a required output",
+    "P12": "redundant or overlapping prompts",
+    "P13": "internal inconsistency (counts, steps, labels)",
+    "P14": "readability (punctuation, language mix, program identifiers)",
+    "P15": "scope or workload (beyond lesson, over budget, syllabus task missing)",
+    "P16": "content error (semantically wrong example or claim)",
+    "P17": "answerable generically (an AI answer that never read the case would pass)",
+    "P18": "timing mismatch (post-class item in pre-class flow without label)"
+  },
+  "fields": [
+    {
+      "id": "F001",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "什么是变量？ → 我已经知道什么？",
+      "header": "我已经知道什么？",
+      "row_label": "什么是变量？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "一列常是一个指标，一行是一次记录；我以前会把所有数字都当数量。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F002",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "什么是变量？ → 我还需要学会什么？",
+      "header": "我还需要学会什么？",
+      "row_label": "什么是变量？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "编号、疾病标签和特征有什么不同？年龄存整数是否就是计数？"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F003",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "什么是变量？ → 我将阅读什么、检查什么或做什么实验？",
+      "header": "我将阅读什么、检查什么或做什么实验？",
+      "row_label": "什么是变量？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 1,
+        "c": 3
+      },
+      "answer": [
+        "读R1/R2，打开真实表对比age、cp和record_id的含义。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F004",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "类型如何影响方法？ → 我已经知道什么？",
+      "header": "我已经知道什么？",
+      "row_label": "类型如何影响方法？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "年龄可以求平均，血型应该数各类人数。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F005",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "类型如何影响方法？ → 我还需要学会什么？",
+      "header": "我还需要学会什么？",
+      "row_label": "类型如何影响方法？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "想知道0/1的均值是什么，以及类别怎么进入Logistic。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F006",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "类型如何影响方法？ → 我将阅读什么、检查什么或做什么实验？",
+      "header": "我将阅读什么、检查什么或做什么实验？",
+      "row_label": "类型如何影响方法？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 2,
+        "c": 3
+      },
+      "answer": [
+        "读R3，做胸痛改名和列联表，看看结果是否改变。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F007",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "生物医学数据有何特殊性？ → 我已经知道什么？",
+      "header": "我已经知道什么？",
+      "row_label": "生物医学数据有何特殊性？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "病人资料可能有空白，也可能来自不同医院。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F008",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "生物医学数据有何特殊性？ → 我还需要学会什么？",
+      "header": "我还需要学会什么？",
+      "row_label": "生物医学数据有何特殊性？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "不确定缺失能否填0，医院不同能否说明仪器不同。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F009",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "我的3W与数据起点",
+      "prompt": "生物医学数据有何特殊性？ → 我将阅读什么、检查什么或做什么实验？",
+      "header": "我将阅读什么、检查什么或做什么实验？",
+      "row_label": "生物医学数据有何特殊性？",
+      "instruction": "3W指“我已经知道什么、还需要学会什么、将怎样学习和检验”。围绕三个课程问题各写短句；第三项写一个参考章节和一个实际行动，作为自己的学习计划。",
+      "capacity": 1,
+      "loc": {
+        "t": 2,
+        "r": 3,
+        "c": 3
+      },
+      "answer": [
+        "读R3质量部分，分中心数空白和0，比较删行前后的中心构成。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F010",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "数据获取",
+      "prompt": "来源名称、发布者、DOI或网址 → 我的核对",
+      "header": "我的核对",
+      "row_label": "来源名称、发布者、DOI或网址",
+      "instruction": "数据身份：查看表 A1、数据文件与参考R2/R4，在下面写出来源、记录数、候选特征数及另外三列的用途。说明为何“记录数”不自动等于“独立患者数”。",
+      "capacity": 1,
+      "loc": {
+        "t": 4,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "Heart Disease；UCI Machine Learning Repository；Janosi等（1989）；DOI:10.24432/C52P4X（R4[1]）。"
+      ],
+      "minutes": 3,
+      "blockers": []
+    },
+    {
+      "id": "F011",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "数据获取",
+      "prompt": "记录数、候选特征数、其他列 → 我的核对",
+      "header": "我的核对",
+      "row_label": "记录数、候选特征数、其他列",
+      "instruction": "数据身份：查看表 A1、数据文件与参考R2/R4，在下面写出来源、记录数、候选特征数及另外三列的用途。说明为何“记录数”不自动等于“独立患者数”。",
+      "capacity": 1,
+      "loc": {
+        "t": 4,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "920条，13个候选特征；另外num是原始标签，site是来源，record_id是教学编号。总共16列（R2及CSV）。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F012",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "数据获取",
+      "prompt": "一行的含义与身份核实限制 → 我的核对",
+      "header": "我的核对",
+      "row_label": "一行的含义与身份核实限制",
+      "instruction": "数据身份：查看表 A1、数据文件与参考R2/R4，在下面写出来源、记录数、候选特征数及另外三列的用途。说明为何“记录数”不自动等于“独立患者数”。",
+      "capacity": 1,
+      "loc": {
+        "t": 4,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "一行是一个来源文件里的临床记录。record_id只由中心和行号组成，没有跨文件的真实患者链接，不能证明920个独立患者（R2）。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F013",
+      "kind": "cell",
+      "part": "我的3W与数据起点",
+      "section": "数据获取",
+      "prompt": "初步建议与待查事实",
+      "header": "初步建议与待查事实",
+      "row_label": "",
+      "instruction": "初步建议：根据表 A1及参考R2，在“贯穿全课的问题”的A、B、C中选一项，写一句理由及一项最可能改变建议的未知事实。",
+      "capacity": 1,
+      "loc": {
+        "t": 5,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "暂选A，四中心都保留用于描述，待检查后再限定研究。A1显示各中心均有记录；未知事实是一些关键指标是否在某中心大量缺失，这会改变建议。"
+      ],
+      "minutes": 3,
+      "blockers": []
+    },
+    {
+      "id": "F014",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "教学编号\n(record_id) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "教学编号\n(record_id)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "标识类别；链接元数据（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": [
+        {
+          "code": "P15",
+          "severity": "block",
+          "note": "启动课已有80个B1判断单元，另有3W、数据身份、学习和改名实验。按初学者读字典、查取值及写短句估计，启动约78分钟，超45分钟及20%容差。",
+          "fix": "保留逐列类型/角色；方法判断选代表字段。提供可执行Excel/AI操作起步材料，重新独立试填；不得仅把时间估计改小。"
+        }
+      ]
+    },
+    {
+      "id": "F015",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "教学编号\n(record_id) → 原值均值",
+      "header": "原值均值",
+      "row_label": "教学编号\n(record_id)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "不宜：编号不是数量"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F016",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "教学编号\n(record_id) → 卡方",
+      "header": "卡方",
+      "row_label": "教学编号\n(record_id)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 1,
+        "c": 3
+      },
+      "answer": [
+        "不宜：每行独有，不能当有意义分组"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F017",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "教学编号\n(record_id) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "教学编号\n(record_id)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 1,
+        "c": 4
+      },
+      "answer": [
+        "不宜：仅定位记录"
+      ],
+      "minutes": 0.35,
+      "blockers": [
+        {
+          "code": "P03",
+          "severity": "friction",
+          "note": "实验1先学仅指R1/R2，但已要求Logistic、卡方和标准化判断；我必须自行推断应提前读R3。",
+          "fix": "先学明确引用R3方法小节，或把方法列移到实验2。"
+        }
+      ]
+    },
+    {
+      "id": "F018",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "教学编号\n(record_id) → 标准化",
+      "header": "标准化",
+      "row_label": "教学编号\n(record_id)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 1,
+        "c": 5
+      },
+      "answer": [
+        "不宜：编号"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F019",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "来源中心\n(site) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "来源中心\n(site)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "无序多分类；来源元数据（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F020",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "来源中心\n(site) → 原值均值",
+      "header": "原值均值",
+      "row_label": "来源中心\n(site)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "不宜：中心名"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F021",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "来源中心\n(site) → 卡方",
+      "header": "卡方",
+      "row_label": "来源中心\n(site)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 2,
+        "c": 3
+      },
+      "answer": [
+        "有条件：与y分组并检查独立性"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F022",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "来源中心\n(site) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "来源中心\n(site)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 2,
+        "c": 4
+      },
+      "answer": [
+        "类别编码；需说明研究与预测中心"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F023",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "来源中心\n(site) → 标准化",
+      "header": "标准化",
+      "row_label": "来源中心\n(site)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 2,
+        "c": 5
+      },
+      "answer": [
+        "不宜：先编码"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F024",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "年龄\n(age) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "年龄\n(age)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "连续量、整年记录；候选特征（R1/R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F025",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "年龄\n(age) → 原值均值",
+      "header": "原值均值",
+      "row_label": "年龄\n(age)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "可：平均年龄"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F026",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "年龄\n(age) → 卡方",
+      "header": "卡方",
+      "row_label": "年龄\n(age)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 3,
+        "c": 3
+      },
+      "answer": [
+        "不宜：连续原值"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F027",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "年龄\n(age) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "年龄\n(age)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 3,
+        "c": 4
+      },
+      "answer": [
+        "数值预测；预测前可知年龄"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F028",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "年龄\n(age) → 标准化",
+      "header": "标准化",
+      "row_label": "年龄\n(age)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 3,
+        "c": 5
+      },
+      "answer": [
+        "有条件：按方法考虑尺度"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F029",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "性别编码\n(sex) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "性别编码\n(sex)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 4,
+        "c": 1
+      },
+      "answer": [
+        "二分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F030",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "性别编码\n(sex) → 原值均值",
+      "header": "原值均值",
+      "row_label": "性别编码\n(sex)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 4,
+        "c": 2
+      },
+      "answer": [
+        "可：非缺失中编码1比例"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F031",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "性别编码\n(sex) → 卡方",
+      "header": "卡方",
+      "row_label": "性别编码\n(sex)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 4,
+        "c": 3
+      },
+      "answer": [
+        "有条件：独立记录与期望频数"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F032",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "性别编码\n(sex) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "性别编码\n(sex)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 4,
+        "c": 4
+      },
+      "answer": [
+        "类别编码0/1；沿用历史定义"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F033",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "性别编码\n(sex) → 标准化",
+      "header": "标准化",
+      "row_label": "性别编码\n(sex)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 4,
+        "c": 5
+      },
+      "answer": [
+        "一般不必；保留0/1较易解释"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F034",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胸痛类别\n(cp) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "胸痛类别\n(cp)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 5,
+        "c": 1
+      },
+      "answer": [
+        "无序多分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F035",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胸痛类别\n(cp) → 原值均值",
+      "header": "原值均值",
+      "row_label": "胸痛类别\n(cp)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 5,
+        "c": 2
+      },
+      "answer": [
+        "不宜：只是标签"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F036",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胸痛类别\n(cp) → 卡方",
+      "header": "卡方",
+      "row_label": "胸痛类别\n(cp)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 5,
+        "c": 3
+      },
+      "answer": [
+        "有条件：与y列联表"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F037",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胸痛类别\n(cp) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "胸痛类别\n(cp)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 5,
+        "c": 4
+      },
+      "answer": [
+        "类别编码；以一类作参照"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F038",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胸痛类别\n(cp) → 标准化",
+      "header": "标准化",
+      "row_label": "胸痛类别\n(cp)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 5,
+        "c": 5
+      },
+      "answer": [
+        "不宜直接z化；先编码"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F039",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息血压\n(trestbps) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "静息血压\n(trestbps)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 6,
+        "c": 1
+      },
+      "answer": [
+        "连续量；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F040",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息血压\n(trestbps) → 原值均值",
+      "header": "原值均值",
+      "row_label": "静息血压\n(trestbps)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 6,
+        "c": 2
+      },
+      "answer": [
+        "有条件：先核对不合理值"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F041",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息血压\n(trestbps) → 卡方",
+      "header": "卡方",
+      "row_label": "静息血压\n(trestbps)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 6,
+        "c": 3
+      },
+      "answer": [
+        "不宜：连续原值"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F042",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息血压\n(trestbps) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "静息血压\n(trestbps)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 6,
+        "c": 4
+      },
+      "answer": [
+        "数值预测；入院测量须在预测前"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F043",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息血压\n(trestbps) → 标准化",
+      "header": "标准化",
+      "row_label": "静息血压\n(trestbps)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 6,
+        "c": 5
+      },
+      "answer": [
+        "有条件：尺度及数值方法需要"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F044",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胆固醇\n(chol) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "胆固醇\n(chol)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 7,
+        "c": 1
+      },
+      "answer": [
+        "连续量；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F045",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胆固醇\n(chol) → 原值均值",
+      "header": "原值均值",
+      "row_label": "胆固醇\n(chol)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 7,
+        "c": 2
+      },
+      "answer": [
+        "有条件：说明缺失、0和异常处理"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F046",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胆固醇\n(chol) → 卡方",
+      "header": "卡方",
+      "row_label": "胆固醇\n(chol)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 7,
+        "c": 3
+      },
+      "answer": [
+        "不宜：连续原值"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F047",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胆固醇\n(chol) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "胆固醇\n(chol)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 7,
+        "c": 4
+      },
+      "answer": [
+        "数值预测；检查时点和质量"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F048",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "胆固醇\n(chol) → 标准化",
+      "header": "标准化",
+      "row_label": "胆固醇\n(chol)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 7,
+        "c": 5
+      },
+      "answer": [
+        "有条件：先核对质量"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F049",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "血糖阈值\n(fbs) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "血糖阈值\n(fbs)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 8,
+        "c": 1
+      },
+      "answer": [
+        "二分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F050",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "血糖阈值\n(fbs) → 原值均值",
+      "header": "原值均值",
+      "row_label": "血糖阈值\n(fbs)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 8,
+        "c": 2
+      },
+      "answer": [
+        "可：已观测者中高于阈值比例"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F051",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "血糖阈值\n(fbs) → 卡方",
+      "header": "卡方",
+      "row_label": "血糖阈值\n(fbs)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 8,
+        "c": 3
+      },
+      "answer": [
+        "有条件：独立性与期望频数"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F052",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "血糖阈值\n(fbs) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "血糖阈值\n(fbs)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 8,
+        "c": 4
+      },
+      "answer": [
+        "类别编码0/1；预测前可得"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F053",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "血糖阈值\n(fbs) → 标准化",
+      "header": "标准化",
+      "row_label": "血糖阈值\n(fbs)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 8,
+        "c": 5
+      },
+      "answer": [
+        "一般不必；不可补空白为0"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F054",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息心电图\n(restecg) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "静息心电图\n(restecg)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 9,
+        "c": 1
+      },
+      "answer": [
+        "无序多分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F055",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息心电图\n(restecg) → 原值均值",
+      "header": "原值均值",
+      "row_label": "静息心电图\n(restecg)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 9,
+        "c": 2
+      },
+      "answer": [
+        "不宜：心电图编码不等距"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F056",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息心电图\n(restecg) → 卡方",
+      "header": "卡方",
+      "row_label": "静息心电图\n(restecg)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 9,
+        "c": 3
+      },
+      "answer": [
+        "有条件：分类列联表"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F057",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息心电图\n(restecg) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "静息心电图\n(restecg)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 9,
+        "c": 4
+      },
+      "answer": [
+        "类别编码；不把0/1/2当线性量"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F058",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "静息心电图\n(restecg) → 标准化",
+      "header": "标准化",
+      "row_label": "静息心电图\n(restecg)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 9,
+        "c": 5
+      },
+      "answer": [
+        "不宜：先编码"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F059",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "最大心率\n(thalach) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "最大心率\n(thalach)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 10,
+        "c": 1
+      },
+      "answer": [
+        "连续测量、整值记录；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F060",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "最大心率\n(thalach) → 原值均值",
+      "header": "原值均值",
+      "row_label": "最大心率\n(thalach)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 10,
+        "c": 2
+      },
+      "answer": [
+        "可：有记录者平均心率"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F061",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "最大心率\n(thalach) → 卡方",
+      "header": "卡方",
+      "row_label": "最大心率\n(thalach)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 10,
+        "c": 3
+      },
+      "answer": [
+        "不宜：连续原值"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F062",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "最大心率\n(thalach) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "最大心率\n(thalach)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 10,
+        "c": 4
+      },
+      "answer": [
+        "数值预测；须已完成运动检查"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F063",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "最大心率\n(thalach) → 标准化",
+      "header": "标准化",
+      "row_label": "最大心率\n(thalach)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 10,
+        "c": 5
+      },
+      "answer": [
+        "有条件：按方法考虑"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F064",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "运动心绞痛\n(exang) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "运动心绞痛\n(exang)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 11,
+        "c": 1
+      },
+      "answer": [
+        "二分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F065",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "运动心绞痛\n(exang) → 原值均值",
+      "header": "原值均值",
+      "row_label": "运动心绞痛\n(exang)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 11,
+        "c": 2
+      },
+      "answer": [
+        "可：已观测者阳性比例"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F066",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "运动心绞痛\n(exang) → 卡方",
+      "header": "卡方",
+      "row_label": "运动心绞痛\n(exang)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 11,
+        "c": 3
+      },
+      "answer": [
+        "有条件：分类列联表"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F067",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "运动心绞痛\n(exang) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "运动心绞痛\n(exang)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 11,
+        "c": 4
+      },
+      "answer": [
+        "类别编码0/1；预测时须可获得"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F068",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "运动心绞痛\n(exang) → 标准化",
+      "header": "标准化",
+      "row_label": "运动心绞痛\n(exang)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 11,
+        "c": 5
+      },
+      "answer": [
+        "一般不必：保留0/1"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F069",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST下降\n(oldpeak) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "ST下降\n(oldpeak)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 12,
+        "c": 1
+      },
+      "answer": [
+        "连续量；候选特征，单位待核（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F070",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST下降\n(oldpeak) → 原值均值",
+      "header": "原值均值",
+      "row_label": "ST下降\n(oldpeak)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 12,
+        "c": 2
+      },
+      "answer": [
+        "有条件：先确认测量尺度"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F071",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST下降\n(oldpeak) → 卡方",
+      "header": "卡方",
+      "row_label": "ST下降\n(oldpeak)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 12,
+        "c": 3
+      },
+      "answer": [
+        "不宜：连续原值"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F072",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST下降\n(oldpeak) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "ST下降\n(oldpeak)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 12,
+        "c": 4
+      },
+      "answer": [
+        "数值预测；检查时点须合适"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F073",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST下降\n(oldpeak) → 标准化",
+      "header": "标准化",
+      "row_label": "ST下降\n(oldpeak)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 12,
+        "c": 5
+      },
+      "answer": [
+        "有条件：尺度可靠且标准差非0"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F074",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST斜率\n(slope) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "ST斜率\n(slope)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 13,
+        "c": 1
+      },
+      "answer": [
+        "有方向次序的分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F075",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST斜率\n(slope) → 原值均值",
+      "header": "原值均值",
+      "row_label": "ST斜率\n(slope)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 13,
+        "c": 2
+      },
+      "answer": [
+        "不宜：上斜到下斜不证明等距"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F076",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST斜率\n(slope) → 卡方",
+      "header": "卡方",
+      "row_label": "ST斜率\n(slope)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 13,
+        "c": 3
+      },
+      "answer": [
+        "有条件：按类别列联表"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F077",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST斜率\n(slope) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "ST斜率\n(slope)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 13,
+        "c": 4
+      },
+      "answer": [
+        "先类别编码；单数值需趋势假设"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F078",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "ST斜率\n(slope) → 标准化",
+      "header": "标准化",
+      "row_label": "ST斜率\n(slope)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 13,
+        "c": 5
+      },
+      "answer": [
+        "不宜直接z化类别编号"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F079",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "显影血管数\n(ca) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "显影血管数\n(ca)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 14,
+        "c": 1
+      },
+      "answer": [
+        "计数；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F080",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "显影血管数\n(ca) → 原值均值",
+      "header": "原值均值",
+      "row_label": "显影血管数\n(ca)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 14,
+        "c": 2
+      },
+      "answer": [
+        "有条件：均值有含义，须说分母"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F081",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "显影血管数\n(ca) → 卡方",
+      "header": "卡方",
+      "row_label": "显影血管数\n(ca)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 14,
+        "c": 3
+      },
+      "answer": [
+        "有条件：0–3类别且不稀疏"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F082",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "显影血管数\n(ca) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "显影血管数\n(ca)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 14,
+        "c": 4
+      },
+      "answer": [
+        "数值预测；也可分类，检查时点"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F083",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "显影血管数\n(ca) → 标准化",
+      "header": "标准化",
+      "row_label": "显影血管数\n(ca)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 14,
+        "c": 5
+      },
+      "answer": [
+        "有条件：按方法需要"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F084",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "灌注检查\n(thal) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "灌注检查\n(thal)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 15,
+        "c": 1
+      },
+      "answer": [
+        "无序多分类；候选特征（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F085",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "灌注检查\n(thal) → 原值均值",
+      "header": "原值均值",
+      "row_label": "灌注检查\n(thal)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 15,
+        "c": 2
+      },
+      "answer": [
+        "不宜：3/6/7只是类别标签"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F086",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "灌注检查\n(thal) → 卡方",
+      "header": "卡方",
+      "row_label": "灌注检查\n(thal)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 15,
+        "c": 3
+      },
+      "answer": [
+        "有条件：分类列联表"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F087",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "灌注检查\n(thal) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "灌注检查\n(thal)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 15,
+        "c": 4
+      },
+      "answer": [
+        "类别编码；预测前须可获得"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F088",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "灌注检查\n(thal) → 标准化",
+      "header": "标准化",
+      "row_label": "灌注检查\n(thal)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 15,
+        "c": 5
+      },
+      "answer": [
+        "不宜直接z化"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F089",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "原始疾病标签\n(num) → 类型与角色",
+      "header": "类型与角色",
+      "row_label": "原始疾病标签\n(num)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 16,
+        "c": 1
+      },
+      "answer": [
+        "原始疾病类别；结局来源（R2）"
+      ],
+      "minutes": 1.0,
+      "blockers": []
+    },
+    {
+      "id": "F090",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "原始疾病标签\n(num) → 原值均值",
+      "header": "原值均值",
+      "row_label": "原始疾病标签\n(num)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 16,
+        "c": 2
+      },
+      "answer": [
+        "不宜：0–4不等于统一分期"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F091",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "原始疾病标签\n(num) → 卡方",
+      "header": "卡方",
+      "row_label": "原始疾病标签\n(num)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 16,
+        "c": 3
+      },
+      "answer": [
+        "有条件：先统一为0与>0"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F092",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "原始疾病标签\n(num) → Logistic用途",
+      "header": "Logistic用途",
+      "row_label": "原始疾病标签\n(num)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 16,
+        "c": 4
+      },
+      "answer": [
+        "结局：派生y；不能又作输入"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F093",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "原始疾病标签\n(num) → 标准化",
+      "header": "标准化",
+      "row_label": "原始疾病标签\n(num)",
+      "instruction": "表 B1 逐列判断表。类型与角色各写一个短语；均值、卡方和标准化写“可／不宜／有条件”及必要关键词；Logistic写结局、数值预测、类别编码或不宜。卡方指与另一个适当分类变量组成列联表；均值指原始取值的均值。实验2后直接修订本表。",
+      "capacity": 1,
+      "loc": {
+        "t": 6,
+        "r": 16,
+        "c": 5
+      },
+      "answer": [
+        "不宜：结局编码不用z化"
+      ],
+      "minutes": 0.35,
+      "blockers": []
+    },
+    {
+      "id": "F094",
+      "kind": "cell",
+      "part": "二 用实验检验理解",
+      "section": "实验1 数字一定代表数量吗",
+      "prompt": "改名实验的数值与解释",
+      "header": "改名实验的数值与解释",
+      "row_label": "",
+      "instruction": "用胸痛改名实验的两个均值和一类胸痛的前后计数作证据，写出哪些量改变、哪些没有改变，以及这对“类别编号可以平均”的说法意味着什么。",
+      "capacity": 1,
+      "loc": {
+        "t": 7,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "原cp均值3.25，重编号均值56.28（920条，CSV）。",
+        "四类前后计数分别46→46、174→174、204→204、496→496。无症状从4改80仍496条。",
+        "改的是编号均值，不是病人的胸痛类别；因此类别编号平均缺少稳定医学意义。"
+      ],
+      "minutes": 12,
+      "blockers": []
+    },
+    {
+      "id": "F095",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "比较三个均值",
+      "prompt": "年龄 → 数值与单位或分母",
+      "header": "数值与单位或分母",
+      "row_label": "年龄",
+      "instruction": "计算年龄均值、原始胸痛编码均值及y的均值。把实验1已经算出的胸痛均值直接用于比较，写明每个结果代表什么；若没有合适的研究含义，请说明理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 8,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "53.51年；920条非缺失年龄。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F096",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "比较三个均值",
+      "prompt": "年龄 → 在研究中能解释为什么？",
+      "header": "在研究中能解释为什么？",
+      "row_label": "年龄",
+      "instruction": "计算年龄均值、原始胸痛编码均值及y的均值。把实验1已经算出的胸痛均值直接用于比较，写明每个结果代表什么；若没有合适的研究含义，请说明理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 8,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "该文件记录的平均年龄，不代表目前普通人群。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F097",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "比较三个均值",
+      "prompt": "胸痛原编号 → 数值与单位或分母",
+      "header": "数值与单位或分母",
+      "row_label": "胸痛原编号",
+      "instruction": "计算年龄均值、原始胸痛编码均值及y的均值。把实验1已经算出的胸痛均值直接用于比较，写明每个结果代表什么；若没有合适的研究含义，请说明理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 8,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "3.25；920条胸痛编码，沿用实验1计算。"
+      ],
+      "minutes": 0.5,
+      "blockers": []
+    },
+    {
+      "id": "F098",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "比较三个均值",
+      "prompt": "胸痛原编号 → 在研究中能解释为什么？",
+      "header": "在研究中能解释为什么？",
+      "row_label": "胸痛原编号",
+      "instruction": "计算年龄均值、原始胸痛编码均值及y的均值。把实验1已经算出的胸痛均值直接用于比较，写明每个结果代表什么；若没有合适的研究含义，请说明理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 8,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "无稳定医学量含义；改名实验已经说明。"
+      ],
+      "minutes": 0.5,
+      "blockers": []
+    },
+    {
+      "id": "F099",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "比较三个均值",
+      "prompt": "疾病状态y（0/1） → 数值与单位或分母",
+      "header": "数值与单位或分母",
+      "row_label": "疾病状态y（0/1）",
+      "instruction": "计算年龄均值、原始胸痛编码均值及y的均值。把实验1已经算出的胸痛均值直接用于比较，写明每个结果代表什么；若没有合适的研究含义，请说明理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 8,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "0.5533=509/920=55.33%。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F100",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "比较三个均值",
+      "prompt": "疾病状态y（0/1） → 在研究中能解释为什么？",
+      "header": "在研究中能解释为什么？",
+      "row_label": "疾病状态y（0/1）",
+      "instruction": "计算年龄均值、原始胸痛编码均值及y的均值。把实验1已经算出的胸痛均值直接用于比较，写明每个结果代表什么；若没有合适的研究含义，请说明理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 8,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "该文件中num>0的比例，不能当当前人群患病率。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F101",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "1 → y=0记录数",
+      "header": "y=0记录数",
+      "row_label": "1",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "26"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F102",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "1 → y=1记录数",
+      "header": "y=1记录数",
+      "row_label": "1",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "20"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F103",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "2 → y=0记录数",
+      "header": "y=0记录数",
+      "row_label": "2",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "150"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F104",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "2 → y=1记录数",
+      "header": "y=1记录数",
+      "row_label": "2",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "24"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F105",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "3 → y=0记录数",
+      "header": "y=0记录数",
+      "row_label": "3",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "131"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F106",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "3 → y=1记录数",
+      "header": "y=1记录数",
+      "row_label": "3",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "73"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F107",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "4 → y=0记录数",
+      "header": "y=0记录数",
+      "row_label": "4",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 4,
+        "c": 1
+      },
+      "answer": [
+        "104"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F108",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "4 → y=1记录数",
+      "header": "y=1记录数",
+      "row_label": "4",
+      "instruction": "表 B2 胸痛类别×疾病状态。用真实数据填写频数，每行是一类胸痛，合计须覆盖920条记录。比较这两个变量的分布时，卡方是否为候选方法？把一个仍需检查的条件写在表后。",
+      "capacity": 1,
+      "loc": {
+        "t": 9,
+        "r": 4,
+        "c": 2
+      },
+      "answer": [
+        "392"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F109",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "从频数到方法",
+      "prompt": "方法判断与手工核对",
+      "header": "方法判断与手工核对",
+      "row_label": "",
+      "instruction": "根据表 B2写出卡方比较的对象及一项使用条件。再手工核对一行频数或合计，注明核对方式；把适用条件补入表 B1。",
+      "capacity": 1,
+      "loc": {
+        "t": 10,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "比较胸痛类别与疾病状态的分布关系；卡方是候选方法，但须检查记录独立性和期望频数（R3）。",
+        "手工复核：cp=1有26+20=46；四行总计46+174+204+496=920。最小期望计数46×411/920=20.55，频数不稀疏；独立患者身份仍未核实。"
+      ],
+      "minutes": 4,
+      "blockers": []
+    },
+    {
+      "id": "F110",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "为后续Logistic研究定义输入与输出",
+      "prompt": "数值预测变量 → 字段、表示方式与必要条件",
+      "header": "字段、表示方式与必要条件",
+      "row_label": "数值预测变量",
+      "instruction": "利用参考R2的含义，为区分y=0与y=1写一个数值预测变量、一个分类预测变量及其表示方式，并指出一个不能直接用来预测y的字段及理由。用数据中的具体字段回答，同时说明预测时该信息是否可获得。",
+      "capacity": 1,
+      "loc": {
+        "t": 11,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "age，保留年数作数值预测；在计划预测时通常已知，仍需确认记录时点（R2/R3）。"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F111",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "为后续Logistic研究定义输入与输出",
+      "prompt": "分类预测变量 → 字段、表示方式与必要条件",
+      "header": "字段、表示方式与必要条件",
+      "row_label": "分类预测变量",
+      "instruction": "利用参考R2的含义，为区分y=0与y=1写一个数值预测变量、一个分类预测变量及其表示方式，并指出一个不能直接用来预测y的字段及理由。用数据中的具体字段回答，同时说明预测时该信息是否可获得。",
+      "capacity": 1,
+      "loc": {
+        "t": 11,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "cp，设2、3、4三列0/1指示，以1为参照；须在预测前记录症状，不用1–4当等距量。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F112",
+      "kind": "cell",
+      "part": "实验2 哪些分析有意义",
+      "section": "为后续Logistic研究定义输入与输出",
+      "prompt": "不能直接作为输入的字段 → 字段、表示方式与必要条件",
+      "header": "字段、表示方式与必要条件",
+      "row_label": "不能直接作为输入的字段",
+      "instruction": "利用参考R2的含义，为区分y=0与y=1写一个数值预测变量、一个分类预测变量及其表示方式，并指出一个不能直接用来预测y的字段及理由。用数据中的具体字段回答，同时说明预测时该信息是否可获得。",
+      "capacity": 1,
+      "loc": {
+        "t": 11,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "num不能作为预测y的输入，因为y由num得到，会泄漏结局；预测前尚不知道造影标签。"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F113",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "年龄 → 原均值",
+      "header": "原均值",
+      "row_label": "年龄",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "54.44"
+      ],
+      "minutes": 1.25,
+      "blockers": [
+        {
+          "code": "P15",
+          "severity": "block",
+          "note": "实验2除三种均值、B2、角色与手核，还有三列标准化、12统计格和三段解释；本次初学者估算约56分钟，超25分钟。",
+          "fix": "给出可操作模板/表格公式起步并减少重复；保留一列亲手标准化、另两列独立核验。"
+        }
+      ]
+    },
+    {
+      "id": "F114",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "年龄 → 原标准差",
+      "header": "原标准差",
+      "row_label": "年龄",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "9.02"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F115",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "年龄 → z均值",
+      "header": "z均值",
+      "row_label": "年龄",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 1,
+        "c": 3
+      },
+      "answer": [
+        "0.00"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F116",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "年龄 → z标准差",
+      "header": "z标准差",
+      "row_label": "年龄",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 1,
+        "c": 4
+      },
+      "answer": [
+        "1.00"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F117",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "静息血压 → 原均值",
+      "header": "原均值",
+      "row_label": "静息血压",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "131.69"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F118",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "静息血压 → 原标准差",
+      "header": "原标准差",
+      "row_label": "静息血压",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "17.57"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F119",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "静息血压 → z均值",
+      "header": "z均值",
+      "row_label": "静息血压",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 2,
+        "c": 3
+      },
+      "answer": [
+        "0.00"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F120",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "静息血压 → z标准差",
+      "header": "z标准差",
+      "row_label": "静息血压",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 2,
+        "c": 4
+      },
+      "answer": [
+        "1.00"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F121",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "胆固醇 → 原均值",
+      "header": "原均值",
+      "row_label": "胆固醇",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "246.69"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F122",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "胆固醇 → 原标准差",
+      "header": "原标准差",
+      "row_label": "胆固醇",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "51.69"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F123",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "胆固醇 → z均值",
+      "header": "z均值",
+      "row_label": "胆固醇",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 3,
+        "c": 3
+      },
+      "answer": [
+        "0.00"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F124",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "胆固醇 → z标准差",
+      "header": "z标准差",
+      "row_label": "胆固醇",
+      "instruction": "表 B3 尺度比较。每行一个变量；均值和标准差都由同一批Cleveland记录计算。填转换前后的统计量，原单位见参考R2，z无单位；结果保留两位小数。",
+      "capacity": 1,
+      "loc": {
+        "t": 12,
+        "r": 3,
+        "c": 4
+      },
+      "answer": [
+        "1.00"
+      ],
+      "minutes": 1.25,
+      "blockers": []
+    },
+    {
+      "id": "F125",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "一个可复核的标准化值",
+      "header": "一个可复核的标准化值",
+      "row_label": "",
+      "instruction": "核对计算：找到Cleveland-001的年龄，代入你计算的年龄均值与标准差，写出一次完整计算，并与软件结果比较。若实验2已手工核对频数，此项只需记录代入式与结果。",
+      "capacity": 1,
+      "loc": {
+        "t": 13,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "Cleveland-001年龄63：z=(63−54.438944)/9.023735=0.948726，约0.95；与用未四舍五入参数的软件结果一致。"
+      ],
+      "minutes": 3,
+      "blockers": [
+        {
+          "code": "P03",
+          "severity": "friction",
+          "note": "“若实验2已手工核对频数”需要推断为前面的“方法判断与手工核对”，同名实验2也包含本节。",
+          "fix": "写“若已在‘方法判断与手工核对’核对频数”。"
+        }
+      ]
+    },
+    {
+      "id": "F126",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "尺度、含义与标准化的边界",
+      "header": "尺度、含义与标准化的边界",
+      "row_label": "",
+      "instruction": "解释变化：结合表 B3，说明三个变量的尺度发生了什么变化，原来的测量含义是否改变。再判断标准化能否处理实验数据中的空缺或中心差异，并解释理由。",
+      "capacity": 1,
+      "loc": {
+        "t": 14,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "B3三个变量都变为均值约0、总体标准差1的无单位分数，仍测量年龄、血压、胆固醇。空白仍无测量值；中心构成或采集流程差异也不会因z化消失（R3）。"
+      ],
+      "minutes": 3,
+      "blockers": []
+    },
+    {
+      "id": "F127",
+      "kind": "cell",
+      "part": "实验2 标准化改变了什么",
+      "section": "实验2 标准化改变了什么",
+      "prompt": "标准化的用途与适用条件",
+      "header": "标准化的用途与适用条件",
+      "row_label": "",
+      "instruction": "决定何时使用：以表 B1中的一个数值字段和一个类别字段为例，说明后续分析何时需要考虑标准化、何时应先解决编码问题。直接修订表 B1的判断；不能只写“全部标准化”。",
+      "capacity": 1,
+      "loc": {
+        "t": 15,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "age在需要尺度可比或带正则化的后续方法中可考虑z化；cp应先按类别编码，z化原编号不会纠正无序编码问题。我已据此修订B1这两行。"
+      ],
+      "minutes": 3,
+      "blockers": [
+        {
+          "code": "P12",
+          "severity": "friction",
+          "note": "要求在本框解释标准化用途，再直接修订B1同样的判断，形成重复写答。",
+          "fix": "取消本框；把例子、条件只写B1选定两行，提示汇报引用。"
+        }
+      ]
+    },
+    {
+      "id": "F128",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 胆固醇\n缺失数",
+      "header": "胆固醇\n缺失数",
+      "row_label": "Cleveland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "0"
+      ],
+      "minutes": 2,
+      "blockers": [
+        {
+          "code": "P15",
+          "severity": "block",
+          "note": "实验3含52个缺失计数的另附表、C1/C2/C3及文字推论和极端值查找；缺乏操作脚手架，估算至少约51分钟，超30分钟。",
+          "fix": "提供包含原数据引用、分中心计数与筛选步骤的空白Excel实验模板或短操作卡，保留学生计算与解释。"
+        }
+      ]
+    },
+    {
+      "id": "F129",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 血管数\n缺失数",
+      "header": "血管数\n缺失数",
+      "row_label": "Cleveland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 1,
+        "c": 3
+      },
+      "answer": [
+        "4"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F130",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 胆固醇\n零值数",
+      "header": "胆固醇\n零值数",
+      "row_label": "Cleveland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 1,
+        "c": 4
+      },
+      "answer": [
+        "0"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F131",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → y=1\n比例%",
+      "header": "y=1\n比例%",
+      "row_label": "Cleveland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 1,
+        "c": 5
+      },
+      "answer": [
+        "139/303=45.87%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F132",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 胆固醇\n缺失数",
+      "header": "胆固醇\n缺失数",
+      "row_label": "Hungary",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "23"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F133",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 血管数\n缺失数",
+      "header": "血管数\n缺失数",
+      "row_label": "Hungary",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 2,
+        "c": 3
+      },
+      "answer": [
+        "291"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F134",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 胆固醇\n零值数",
+      "header": "胆固醇\n零值数",
+      "row_label": "Hungary",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 2,
+        "c": 4
+      },
+      "answer": [
+        "0"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F135",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → y=1\n比例%",
+      "header": "y=1\n比例%",
+      "row_label": "Hungary",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 2,
+        "c": 5
+      },
+      "answer": [
+        "106/294=36.05%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F136",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 胆固醇\n缺失数",
+      "header": "胆固醇\n缺失数",
+      "row_label": "Switzerland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "0"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F137",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 血管数\n缺失数",
+      "header": "血管数\n缺失数",
+      "row_label": "Switzerland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 3,
+        "c": 3
+      },
+      "answer": [
+        "118"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F138",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 胆固醇\n零值数",
+      "header": "胆固醇\n零值数",
+      "row_label": "Switzerland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 3,
+        "c": 4
+      },
+      "answer": [
+        "123"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F139",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → y=1\n比例%",
+      "header": "y=1\n比例%",
+      "row_label": "Switzerland",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 3,
+        "c": 5
+      },
+      "answer": [
+        "115/123=93.50%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F140",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 胆固醇\n缺失数",
+      "header": "胆固醇\n缺失数",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 4,
+        "c": 2
+      },
+      "answer": [
+        "7"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F141",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 血管数\n缺失数",
+      "header": "血管数\n缺失数",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 4,
+        "c": 3
+      },
+      "answer": [
+        "198"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F142",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 胆固醇\n零值数",
+      "header": "胆固醇\n零值数",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 4,
+        "c": 4
+      },
+      "answer": [
+        "49"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F143",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → y=1\n比例%",
+      "header": "y=1\n比例%",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C1 分中心检查。先生成13个候选特征的缺失计数表，再把胆固醇与血管数的计数填入本表；计算各中心y=1的比例。每行一个中心，缺失比例和阳性比例均以该中心记录数为分母。",
+      "capacity": 1,
+      "loc": {
+        "t": 16,
+        "r": 4,
+        "c": 5
+      },
+      "answer": [
+        "149/200=74.50%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F144",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 保留零值：记录数；均值",
+      "header": "保留零值：记录数；均值",
+      "row_label": "Cleveland",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "303；246.69 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F145",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 排除零值：记录数；均值",
+      "header": "排除零值：记录数；均值",
+      "row_label": "Cleveland",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "303；246.69 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F146",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 保留零值：记录数；均值",
+      "header": "保留零值：记录数；均值",
+      "row_label": "Hungary",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "271；250.85 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F147",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 排除零值：记录数；均值",
+      "header": "排除零值：记录数；均值",
+      "row_label": "Hungary",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "271；250.85 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F148",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 保留零值：记录数；均值",
+      "header": "保留零值：记录数；均值",
+      "row_label": "Switzerland",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "123；0.00 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F149",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 排除零值：记录数；均值",
+      "header": "排除零值：记录数；均值",
+      "row_label": "Switzerland",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "0；不可计算"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F150",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 保留零值：记录数；均值",
+      "header": "保留零值：记录数；均值",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 4,
+        "c": 1
+      },
+      "answer": [
+        "193；178.75 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F151",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 排除零值：记录数；均值",
+      "header": "排除零值：记录数；均值",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C2 胆固醇敏感性比较。分别保留零值、临时排除零值后算均值；两种情况都排除空单元，其他字段不参与筛选。每格填“参与均值的记录数；均值mg/dL”；无有效记录时写“0；不可计算”。排除零值只是检验影响，并不证明零值的成因。",
+      "capacity": 1,
+      "loc": {
+        "t": 17,
+        "r": 4,
+        "c": 2
+      },
+      "answer": [
+        "144；239.57 mg/dL"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F152",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 完整记录数",
+      "header": "完整记录数",
+      "row_label": "Cleveland",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "297"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F153",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Cleveland → 筛选后中心占比%",
+      "header": "筛选后中心占比%",
+      "row_label": "Cleveland",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "297/299=99.33%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F154",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 完整记录数",
+      "header": "完整记录数",
+      "row_label": "Hungary",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "1"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F155",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Hungary → 筛选后中心占比%",
+      "header": "筛选后中心占比%",
+      "row_label": "Hungary",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "1/299=0.33%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F156",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 完整记录数",
+      "header": "完整记录数",
+      "row_label": "Switzerland",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "0"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F157",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "Switzerland → 筛选后中心占比%",
+      "header": "筛选后中心占比%",
+      "row_label": "Switzerland",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "0/299=0.00%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F158",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 完整记录数",
+      "header": "完整记录数",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 4,
+        "c": 1
+      },
+      "answer": [
+        "1"
+      ],
+      "minutes": 1.5,
+      "blockers": []
+    },
+    {
+      "id": "F159",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "VA Long Beach → 筛选后中心占比%",
+      "header": "筛选后中心占比%",
+      "row_label": "VA Long Beach",
+      "instruction": "表 C3 完整记录筛选的代价。仅删除13个候选特征中存在空单元的记录，零值仍保留；填写各中心剩余数与筛选后的中心占比（分母为全部剩余记录数）。与表 A1的原始构成比较。",
+      "capacity": 1,
+      "loc": {
+        "t": 18,
+        "r": 4,
+        "c": 2
+      },
+      "answer": [
+        "1/299=0.33%"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F160",
+      "kind": "cell",
+      "part": "实验3 处理数据会改变结论吗",
+      "section": "实验3 处理数据会改变结论吗",
+      "prompt": "两项发现、分析后果与待查原因",
+      "header": "两项发现、分析后果与待查原因",
+      "row_label": "",
+      "instruction": "解释后果：引用表 C1至C3的具体数字，写出最值得团队注意的两项发现及各自影响。其中须比较Cleveland筛选前后的占比，并说明本表是否足以把中心差异归因于技术批次。",
+      "capacity": 1,
+      "loc": {
+        "t": 19,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "C1/C2：Switzerland胆固醇123条全0，保留均值0，去0后没有可算记录。不能把0解释成健康水平，也不能无证据认定错误原因。",
+        "C3：完整记录仅299条，其中Cleveland297条。Cleveland从303/920=32.93%升为297/299=99.33%，删空白几乎把四中心研究变成单中心。",
+        "C1至C3都不足以证明技术批次效应；还可能是患者构成或采集规则，需流程、共同样本或校准资料（R3）。"
+      ],
+      "minutes": 6,
+      "blockers": [
+        {
+          "code": "P03",
+          "severity": "friction",
+          "note": "“并说明本表是否足以”可指最近C3或C1至C3；我推断为三张表。",
+          "fix": "明确“说明表C1至C3是否足以”。"
+        }
+      ]
+    },
+    {
+      "id": "F161",
+      "kind": "cell",
+      "part": "迁移 同一思路能用到新数据吗",
+      "section": "迁移 同一思路能用到新数据吗",
+      "prompt": "病期与计数：甲、乙、丙的分期为I、II、III；突变数为0、1、4。 → 我的判断及依据",
+      "header": "我的判断及依据",
+      "row_label": "病期与计数：甲、乙、丙的分期为I、II、III；突变数为0、1、4。",
+      "instruction": "表 D1 五个教学情境。按每行的输入完成判断；说明哪项所需信息不在真实心脏病数据中。每格写短句或矩阵维度，不需要额外寻找数据。",
+      "capacity": 1,
+      "loc": {
+        "t": 20,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "分期有序，突变数为计数。分期相邻间距相等需可靠量表或测量依据，不能只由I、II、III推出（D1、R1）。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F162",
+      "kind": "cell",
+      "part": "迁移 同一思路能用到新数据吗",
+      "section": "迁移 同一思路能用到新数据吗",
+      "prompt": "随访：甲12个月发生事件；乙观察到12个月仍未发生事件。 → 我的判断及依据",
+      "header": "我的判断及依据",
+      "row_label": "随访：甲12个月发生事件；乙观察到12个月仍未发生事件。",
+      "instruction": "表 D1 五个教学情境。按每行的输入完成判断；说明哪项所需信息不在真实心脏病数据中。每格写短句或矩阵维度，不需要额外寻找数据。",
+      "capacity": 1,
+      "loc": {
+        "t": 20,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "不能；甲发生事件，乙在12个月时仍未发生。保留观察时长和事件状态。真实心脏病表没有随访起止和事件列，不能直接作生存研究。"
+      ],
+      "minutes": 2.5,
+      "blockers": []
+    },
+    {
+      "id": "F163",
+      "kind": "cell",
+      "part": "迁移 同一思路能用到新数据吗",
+      "section": "迁移 同一思路能用到新数据吗",
+      "prompt": "单细胞：3位供者，每人100个细胞，每细胞20000个基因；有供者号与批次。 → 我的判断及依据",
+      "header": "我的判断及依据",
+      "row_label": "单细胞：3位供者，每人100个细胞，每细胞20000个基因；有供者号与批次。",
+      "instruction": "表 D1 五个教学情境。按每行的输入完成判断；说明哪项所需信息不在真实心脏病数据中。每格写短句或矩阵维度，不需要额外寻找数据。",
+      "capacity": 1,
+      "loc": {
+        "t": 20,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "300×20000，3位供者。高维描述矩阵结构，不是单基因类型；若原始分子数是计数，若标准化表达量可能连续。题中没给具体表示，不能唯一判断。"
+      ],
+      "minutes": 3,
+      "blockers": [
+        {
+          "code": "P08",
+          "severity": "friction",
+          "note": "D1问基因测量类型却仅给矩阵维度；原始计数或标准化表达量均合理，我只能条件作答。",
+          "fix": "在输入注明原始计数/标准化表达量，或明确允许条件答案并要求说明缺少的信息。"
+        }
+      ]
+    },
+    {
+      "id": "F164",
+      "kind": "cell",
+      "part": "迁移 同一思路能用到新数据吗",
+      "section": "迁移 同一思路能用到新数据吗",
+      "prompt": "影像：20位受试者，每人2张64×64灰度图；有受试者号。 → 我的判断及依据",
+      "header": "我的判断及依据",
+      "row_label": "影像：20位受试者，每人2张64×64灰度图；有受试者号。",
+      "instruction": "表 D1 五个教学情境。按每行的输入完成判断；说明哪项所需信息不在真实心脏病数据中。每格写短句或矩阵维度，不需要额外寻找数据。",
+      "capacity": 1,
+      "loc": {
+        "t": 20,
+        "r": 4,
+        "c": 2
+      },
+      "answer": [
+        "40行×4096列；每人两图，所以独立受试者仅20，保留受试者链接。"
+      ],
+      "minutes": 2,
+      "blockers": []
+    },
+    {
+      "id": "F165",
+      "kind": "cell",
+      "part": "迁移 同一思路能用到新数据吗",
+      "section": "迁移 同一思路能用到新数据吗",
+      "prompt": "仪器：同一标准样本，甲测得100、101、99；乙测得120、121、119（任意单位）。 → 我的判断及依据",
+      "header": "我的判断及依据",
+      "row_label": "仪器：同一标准样本，甲测得100、101、99；乙测得120、121、119（任意单位）。",
+      "instruction": "表 D1 五个教学情境。按每行的输入完成判断；说明哪项所需信息不在真实心脏病数据中。每格写短句或矩阵维度，不需要额外寻找数据。",
+      "capacity": 1,
+      "loc": {
+        "t": 20,
+        "r": 5,
+        "c": 2
+      },
+      "answer": [
+        "甲均值100、乙120，乙−甲=20。同一标准样本使生物对象相同，比各中心患者阳性比例多了可比对象的控制；没有真值不能说哪台准确。"
+      ],
+      "minutes": 2.5,
+      "blockers": []
+    },
+    {
+      "id": "F166",
+      "kind": "cell",
+      "part": "迁移 同一思路能用到新数据吗",
+      "section": "迁移 同一思路能用到新数据吗",
+      "prompt": "真实数据的能力边界",
+      "header": "真实数据的能力边界",
+      "row_label": "",
+      "instruction": "把边界说清楚：从表 D1选择一项研究需求，指出真实心脏病表缺少的具体字段或链接信息。写出团队取得什么资料后才能开始回答这项问题。",
+      "capacity": 1,
+      "loc": {
+        "t": 21,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "选择随访研究：需患者链接、统一起点、随访时长、事件发生日期或状态，以及失访/观察结束日期。获得这些并核对结局定义后再开始（D1随访行、R1）。"
+      ],
+      "minutes": 2,
+      "blockers": [
+        {
+          "code": "P12",
+          "severity": "friction",
+          "note": "D1总指令已要求说明真实数据缺哪项信息，随访行又问真实表能否做生存研究，边界框第三次写同一判断。",
+          "fix": "D1只作情境判别；真实数据缺字段的完整答案仅保留边界框，可引用D1。"
+        }
+      ]
+    },
+    {
+      "id": "F167",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "什么是变量？ → 我要展示的结果",
+      "header": "我要展示的结果",
+      "row_label": "什么是变量？",
+      "instruction": "汇报提纲：为每个课程问题选一项自己完成的实验或迁移结果，写关键词提示即可。指出要展示的表或计算、它支持的解释，以及一个适用限制；不抄写实验全文。",
+      "capacity": 1,
+      "loc": {
+        "t": 22,
+        "r": 1,
+        "c": 1
+      },
+      "answer": [
+        "展示B1胸痛行与改名实验的3.25→56.28。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F168",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "什么是变量？ → 我会怎样解释及限定结论",
+      "header": "我会怎样解释及限定结论",
+      "row_label": "什么是变量？",
+      "instruction": "汇报提纲：为每个课程问题选一项自己完成的实验或迁移结果，写关键词提示即可。指出要展示的表或计算、它支持的解释，以及一个适用限制；不抄写实验全文。",
+      "capacity": 1,
+      "loc": {
+        "t": 22,
+        "r": 1,
+        "c": 2
+      },
+      "answer": [
+        "类型由含义决定；无症状496条不变。并非所有数字都不能平均，年龄可以。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F169",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "变量类型如何影响方法？ → 我要展示的结果",
+      "header": "我要展示的结果",
+      "row_label": "变量类型如何影响方法？",
+      "instruction": "汇报提纲：为每个课程问题选一项自己完成的实验或迁移结果，写关键词提示即可。指出要展示的表或计算、它支持的解释，以及一个适用限制；不抄写实验全文。",
+      "capacity": 1,
+      "loc": {
+        "t": 22,
+        "r": 2,
+        "c": 1
+      },
+      "answer": [
+        "展示B2频数、B3年龄z=0.95。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F170",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "变量类型如何影响方法？ → 我会怎样解释及限定结论",
+      "header": "我会怎样解释及限定结论",
+      "row_label": "变量类型如何影响方法？",
+      "instruction": "汇报提纲：为每个课程问题选一项自己完成的实验或迁移结果，写关键词提示即可。指出要展示的表或计算、它支持的解释，以及一个适用限制；不抄写实验全文。",
+      "capacity": 1,
+      "loc": {
+        "t": 22,
+        "r": 2,
+        "c": 2
+      },
+      "answer": [
+        "卡方针对分类频数，标准化改尺度；记录独立性未确认，不能仅凭表格说检验一定有效。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F171",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "生物医学数据有何特殊性？ → 我要展示的结果",
+      "header": "我要展示的结果",
+      "row_label": "生物医学数据有何特殊性？",
+      "instruction": "汇报提纲：为每个课程问题选一项自己完成的实验或迁移结果，写关键词提示即可。指出要展示的表或计算、它支持的解释，以及一个适用限制；不抄写实验全文。",
+      "capacity": 1,
+      "loc": {
+        "t": 22,
+        "r": 3,
+        "c": 1
+      },
+      "answer": [
+        "展示C2 Switzerland及C3删行构成。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F172",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "生物医学数据有何特殊性？ → 我会怎样解释及限定结论",
+      "header": "我会怎样解释及限定结论",
+      "row_label": "生物医学数据有何特殊性？",
+      "instruction": "汇报提纲：为每个课程问题选一项自己完成的实验或迁移结果，写关键词提示即可。指出要展示的表或计算、它支持的解释，以及一个适用限制；不抄写实验全文。",
+      "capacity": 1,
+      "loc": {
+        "t": 22,
+        "r": 3,
+        "c": 2
+      },
+      "answer": [
+        "质量处理改变样本范围；中心差异本身不能确定技术批次原因。"
+      ],
+      "minutes": 1,
+      "blockers": []
+    },
+    {
+      "id": "F173",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "三 向全班解释我的学习",
+      "prompt": "给研究团队的数据使用建议",
+      "header": "给研究团队的数据使用建议",
+      "row_label": "",
+      "instruction": "最终建议：回到“贯穿全课的问题”的A、B、C，选择保留全部、限制范围或暂缓分析。用约180–250字说明对象范围、变量与方法选择、至少两项质量证据（包括一项极端值判断）、需优先核实的资料，以及本表不能回答的一项新问题；引用自己的表或实验数值，避免只写“清洗后建模”。",
+      "capacity": 1,
+      "loc": {
+        "t": 23,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "建议B：暂以Cleveland及有明确含义的字段开展描述研究，不把结果推广为四中心人群结论。年龄可求均值，胸痛需类别编码；num仅用于派生结局。C3完整记录中297/299来自Cleveland，而原占比仅32.93%，直接删行会改变研究对象。C2显示Switzerland胆固醇123条全为0，须核实采集及缺失编码。极端值Hungary-244胆固醇603 mg/dL应查原始记录或复测，不能只因最大就删除。优先核实来源流程、真实患者链接及预测时点。表中缺少随访时间和事件状态，暂不能回答生存问题。"
+      ],
+      "minutes": 8,
+      "blockers": [
+        {
+          "code": "P15",
+          "severity": "block",
+          "note": "汇报准备10分钟要写六格提纲、180–250字最终建议、核对极端值、四条自检及试讲5–8分钟；本次约24分钟。",
+          "fix": "合并提纲与建议，改为引用表格的简短口头提示并给准备时间；或调整实际课时须有授权。"
+        }
+      ]
+    },
+    {
+      "id": "F174",
+      "kind": "checkbox",
+      "part": "三 向全班解释我的学习",
+      "section": "汇报前自检",
+      "prompt": "☐ 我能用具体字段说明类型与角色，并解释胸痛改名实验。",
+      "instruction": "逐项自查，能做到的打勾；暂不能解释的先回到相应实验修正。",
+      "capacity": 1,
+      "loc": {
+        "p": 64
+      },
+      "answer": [
+        "已勾选；可用胸痛改名数值解释。"
+      ],
+      "minutes": 0.5,
+      "blockers": []
+    },
+    {
+      "id": "F175",
+      "kind": "checkbox",
+      "part": "三 向全班解释我的学习",
+      "section": "汇报前自检",
+      "prompt": "☐ 我能讲清均值、卡方、Logistic输入和标准化的适用条件。",
+      "instruction": "逐项自查，能做到的打勾；暂不能解释的先回到相应实验修正。",
+      "capacity": 1,
+      "loc": {
+        "p": 65
+      },
+      "answer": [
+        "已勾选；需拿R3辅助解释期望频数及编码。"
+      ],
+      "minutes": 0.5,
+      "blockers": []
+    },
+    {
+      "id": "F176",
+      "kind": "checkbox",
+      "part": "三 向全班解释我的学习",
+      "section": "汇报前自检",
+      "prompt": "☐ 我能复核一个计算，区分质量现象、成因推测与使用边界。",
+      "instruction": "逐项自查，能做到的打勾；暂不能解释的先回到相应实验修正。",
+      "capacity": 1,
+      "loc": {
+        "p": 66
+      },
+      "answer": [
+        "已勾选；已核对46条及z=0.95。"
+      ],
+      "minutes": 0.5,
+      "blockers": []
+    },
+    {
+      "id": "F177",
+      "kind": "checkbox",
+      "part": "三 向全班解释我的学习",
+      "section": "汇报前自检",
+      "prompt": "☐ 我能指出哪项证据会改变建议，并回答同学的追问。",
+      "instruction": "逐项自查，能做到的打勾；暂不能解释的先回到相应实验修正。",
+      "capacity": 1,
+      "loc": {
+        "p": 67
+      },
+      "answer": [
+        "已勾选；若0有可靠编码解释、缺失可追补，可能扩大研究范围。"
+      ],
+      "minutes": 0.5,
+      "blockers": []
+    },
+    {
+      "id": "F178",
+      "kind": "cell",
+      "part": "三 向全班解释我的学习",
+      "section": "汇报前自检",
+      "prompt": "课后修正记录",
+      "header": "课后修正记录",
+      "row_label": "",
+      "instruction": "讨论后修正：记录课堂上的一个具体质疑及相关证据，说明自己修改了哪项解释；若保持原判断，也要说明新证据为何不足以推翻它。",
+      "capacity": 1,
+      "loc": {
+        "t": 24,
+        "r": 1,
+        "c": 0
+      },
+      "answer": [
+        "模拟同学质疑：“只选Cleveland会不会牺牲代表性？”我补充：会，因此B只是受限研究，不宣称代表四中心。C3的99.33%说明完整记录分析也几乎如此，应明确范围并争取追补其他中心资料。此处为模拟质疑，并非真实课堂发言。"
+      ],
+      "minutes": 3,
+      "blockers": [
+        {
+          "code": "P18",
+          "severity": "friction",
+          "note": "“课后修正记录”由“讨论后修正”推断在汇报课堂之后，工作单两次课堂容易混淆。",
+          "fix": "明确“汇报课堂讨论后（3分钟，计入汇报课）”。"
+        }
+      ]
+    }
+  ],
+  "pilot_metadata": {
+    "date": "2026-09-25",
+    "independence": "fresh-agent: student-visible materials only",
+    "persona": "中文生物医学初学者；基本Excel/AI操作，不熟练编程",
+    "timing_note": "field minutes include task setup/AI assistance and verification; reading and rehearsal overhead separately listed in notes; no teacher answers consulted",
+    "status": "revision required; blocking workload findings unresolved"
+  }
+}

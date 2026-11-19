@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "worksheet_pages": 8,
+  "reference_pages": 4,
+  "visual_review_pages": 12,
+  "lint_errors": 0,
+  "lint_warnings": 0,
+  "design_errors": 0,
+  "design_warnings": 0,
+  "pilot_fields": 129,
+  "pilot_blockers": 0,
+  "pilot_homework_minutes": 92,
+  "pilot_launch_minutes": 48,
+  "files": {
+    "pbl-data-types-student-worksheet.docx": {
+      "bytes": 49470,
+      "sha256": "5106c5b4d12984879c614a522c9cfd171ba7def02d030b8efa029ac09248640b"
+    },
+    "pbl-data-types-reference.docx": {
+      "bytes": 45036,
+      "sha256": "aca7e91e681f5625e9c0f5864fa478aa60c9b1ff0c28dba2d3850f089fc1486e"
+    }
+  }
+}

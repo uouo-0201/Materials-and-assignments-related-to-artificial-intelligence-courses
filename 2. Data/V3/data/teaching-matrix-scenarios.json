@@ -1,0 +1,23 @@
+{
+  "teaching_only": true,
+  "single_cell": {
+    "donors": 3,
+    "cells_per_donor": 100,
+    "genes_per_cell": 20000,
+    "values": "normalized continuous expression",
+    "retain": [
+      "donor_id",
+      "batch"
+    ]
+  },
+  "imaging": {
+    "subjects": 20,
+    "images_per_subject": 2,
+    "height": 64,
+    "width": 64,
+    "channels": 1,
+    "retain": [
+      "subject_id"
+    ]
+  }
+}
